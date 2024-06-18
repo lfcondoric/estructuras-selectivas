@@ -13,13 +13,13 @@ int main(){
 	cout<<"Ingrese un numero: ";cin>>n;
 	
 	if(n == 0){
-		cout<<"El numero es nulo"<<endl;
+		cout<<"El numero es nulo\n";
 	}
 	else if(n % 2 == 0){
-		cout<<"El numero es par"<<endl;
+		cout<<"El numero es par\n";
 	}
 		else{
-			cout<<"El numero es impar"<<endl;
+			cout<<"El numero es impar\n";
 		}
 		
 	system("pause");
