@@ -1,0 +1,42 @@
+//multiple1.cpp
+//Condori Caljaro Luis Fernando
+
+#include<iostream>
+#include<stdlib.h>
+
+using namespace std;
+
+int main(){
+
+	int pre,cat;
+
+	cout<<"Bienevenido al concesionario (!Hoy Descuentos�)"<<endl;
+	cout<<"Ingrese la cantidad que desea pagar: ";cin>>pre;
+	cout<<"Selecione la categoria del auto que desea adquirir: ";cin>>cat;
+
+	switch(cat){
+		case 1:
+			pre*=0.92;
+			cout<<"El pago total por el Cutlass es: S/."<<pre<<endl;
+			break;
+		case 2:
+			pre*=0.95;
+			cout<<"El pago total por el Cavalier es: S/."<<pre<<endl;
+			break;
+		case 3:
+			pre*=0.94;
+			cout<<"El pago total por el Chevy es: S/."<<pre<<endl;
+			break;
+		case 4:
+			pre*=0.91;
+			cout<<"El pago total por el Century es: S/."<<pre<<endl;
+			break;
+		default: cout<<"El concesionario no cuenta con esta categoria"<<endl;break;
+			
+			
+	}
+	
+	
+	system("pause");
+	return 0;
+}
